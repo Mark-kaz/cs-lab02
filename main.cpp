@@ -15,6 +15,14 @@ int main()
          << "A / B = " << a / b << '\n';
     if (a>b)
     {
+        cout << "max=" << a;
+    }
+    else
+    {
+        cout << "max=" << b;
+    }
+    if (a>b)
+    {
         cout << "min=" << a;
     }
     else
